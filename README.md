@@ -4,7 +4,7 @@ PERSONAL DIARY MANAGEMENT C PROJECT
 
 In this C Projects source code series, we are creating simple Personal dairy. It is a c console-based application that works without using graphics and is one of the best c programming projects
 
-REQUIREMENTS
+REQUIREMENTS-
 
 High Level Requirements
 
