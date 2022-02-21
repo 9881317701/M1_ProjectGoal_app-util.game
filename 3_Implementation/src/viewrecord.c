@@ -1,4 +1,4 @@
-#include"viewrecord.h"
+#include"inc/viewrecord.h"
 #include "record.c"
 void viewrecord( )
 
@@ -28,7 +28,6 @@ void viewrecord( )
 //ASKS YOUR TO ENTER THE DATE
         printf("\n\tENTER THE DATE OF RECORD TO BE VIEWED:[yyyy-mm-dd]:");
 
-        fflush(stdin);
 
         gets(name);
 
@@ -86,7 +85,7 @@ void viewrecord( )
 
         case 2:
 
-            fflush(stdin);
+
 
             printf("\nENTER TIME:[hh:mm]:");
 
@@ -127,7 +126,6 @@ void viewrecord( )
 //LOOP
         printf("\n\nWOULD YOU LIKE TO CONTINUE VIEWING...(Y/N):");
 
-        fflush(stdin);
 
         scanf("%c",&userchoice);
 

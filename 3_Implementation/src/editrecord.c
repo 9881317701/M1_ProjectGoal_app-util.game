@@ -1,4 +1,4 @@
-#include"editrecord.h"
+#include"inc/editrecord.h"
 #include"record.c"
 void editrecord()
 
@@ -26,7 +26,7 @@ void editrecord()
 //ASK FOR THE USER TO ENTER RECORD TO BE UPDATED
         printf("\n\tENTER THE DATE OF RECORD TO BE EDITED:[yyyy-mm-dd]: ");
 
-        fflush(stdin);
+        
 
 
         gets(filename);
@@ -94,11 +94,11 @@ void editrecord()
 
                     printf("\n\tENTER YOUR CHOICE:");
 
-                    fflush(stdin);
+                    
 
                     scanf("%d",&choicee);
 
-                    fflush(stdin);
+                    
 //THEN UPDATE THE RECORD
                     switch(choicee)
 

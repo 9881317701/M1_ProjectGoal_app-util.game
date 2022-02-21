@@ -2,12 +2,11 @@
 
 #include<conio.h>
 #include<string.h>
-#include"record.c"
 #include<stdlib.h>
-#include"addrecord.h" //
-#include"editrecord.h"//
-#include"viewrecord.h"//
-#include"deleterecord.h"
+#include"inc/addrecord.h" //
+#include"inc/editrecord.h"//
+#include"inc/viewrecord.h"//
+#include"inc/deleterecord.h"
 
 int main()
 

@@ -1,4 +1,4 @@
-#include"addrecord.h"
+#include"inc/addrecord.h"
 #include"record.c"
 void addrecord( )
 
@@ -15,7 +15,6 @@ void addrecord( )
 
     char filename[10];
 
-    int choice;
 
     printf("\n\n\t\t***************************\n");
 
@@ -25,7 +24,7 @@ void addrecord( )
 
     printf("\n\n\tPLEASE ENTER DATE OF YOUR RECORD:[yyyy-mm-dd]:");
 
-    fflush(stdin);
+  
 
     gets(filename);
 //save the file with the date as its name
@@ -57,13 +56,12 @@ void addrecord( )
 
     {
 
-        choice=0;
+        int choice=0;
 
-        fflush(stdin);
 
         printf ( "\n\tENTER TIME IN THIS FORMAT :[hh:mm]:");
 
-        scanf ("%s",time);
+        scanf ("%9s",time);
 
         rewind (filePtr);
 
@@ -92,23 +90,23 @@ void addrecord( )
 
             printf("\tENTER A NAME:");
 
-            fflush(stdin);
+        
 //SAVE IT IN THE STRUCTURE
             gets(instance.namee);
 
-            fflush(stdin);
+        
 
             printf("\tENTER A PLACE:");
 
             gets(instance.placee);
 
-            fflush(stdin);
+        
 
             printf("\tENTER THE DURATION:");
 
             gets(instance.durationn);
 
-            fflush(stdin);
+        
 
             printf("\tENTER A NOTE:");
 

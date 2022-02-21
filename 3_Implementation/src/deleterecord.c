@@ -1,4 +1,4 @@
-#include"deleterecord.h"
+#include"inc/deleterecord.h"
 #include"record.c"
 void deleterecord( )
 
@@ -12,7 +12,7 @@ void deleterecord( )
 
     char filename[10],REPEAT = 'Y' ,time[9];;
 
-    int choice,check;
+  
 
     printf("\n\n\t\t*************************\n");
 
@@ -24,6 +24,7 @@ void deleterecord( )
     while ( REPEAT == 'Y' )
 
     {
+          int choice;
 //CHOICE IS GIVENT TO THE USER
         printf("\n\n\tWHAT WOULD YOU LIKE TO DELETE.");
 
@@ -47,7 +48,7 @@ void deleterecord( )
 //ASKS USER TO ENTER THE DATE OF RECORD
                 printf("\n\tENTER THE DATE OF RECORD TO BE DELETED:\n IN THE FORMAT [yyyy-mm-dd]:");
 
-                fflush(stdin);
+                
 
                 gets(filename);
 
@@ -79,7 +80,7 @@ void deleterecord( )
 
                 printf("\n\tENTER THE DATE OF RECORD:[yyyy-mm-dd]:");
 
-                fflush(stdin);
+                
 
                 gets(filename);
 
@@ -117,7 +118,7 @@ void deleterecord( )
 
                 printf("\n\tENTER THE TIME OF RECORD TO BE DELETED:[hh:mm]:");
 
-                fflush(stdin);
+                
 
                 gets(time);
 
@@ -156,7 +157,7 @@ void deleterecord( )
 //TO NAVIGATE
         printf("\n\tDO YOU LIKE TO DELETE ANOTHER RECORD.(Y/N):");
 
-        fflush(stdin);
+        
 
         scanf("%c",&REPEAT);
 
