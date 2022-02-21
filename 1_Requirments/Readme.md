@@ -11,6 +11,7 @@ In this C Projects source code series, we are creating simple Personal dairy. It
   | HR03 | Build a .exe file to run it on any Windows machine | Implemented |
   | HR04 | User shall be able to adding reminders for their meeting information, and other various tasks | Future | 
   
+
   ## Low level requirements
   |  ID|Description|Status|
   |---|---|---|
