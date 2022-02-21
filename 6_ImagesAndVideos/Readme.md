@@ -1,4 +1,4 @@
- ## Test plan and test ouput
+ ## Test plan and test output
 
 
 | Test ID | Description | Expected Input | Expected Output | Type of Test | Status |
