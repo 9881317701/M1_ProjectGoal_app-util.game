@@ -92,25 +92,25 @@ void addrecord( )
 
         
 //SAVE IT IN THE STRUCTURE
-            gets(instance.namee);
+            fgets(instance.namee,20,stdin);
 
         
 
             printf("\tENTER A PLACE:");
 
-            gets(instance.placee);
+            fgets(instance.placee,20,stdin);
 
         
 
             printf("\tENTER THE DURATION:");
 
-            gets(instance.durationn);
+            fgets(instance.durationn,20,stdin);
 
         
 
             printf("\tENTER A NOTE:");
 
-            gets(instance.notee);
+            fgets(instance.notee,20,stdin);
 
             fwrite ( &instance, sizeof ( instance ), 1, filePtr ) ;
 

@@ -29,7 +29,7 @@ void viewrecord( )
         printf("\n\tENTER THE DATE OF RECORD TO BE VIEWED:[yyyy-mm-dd]:");
 
 
-            fgets(filename,20,stdin);
+        fgets(name,20,stdin);
 
         fpointer = fopen ( name, "rb" ) ;
 
@@ -89,7 +89,7 @@ void viewrecord( )
 
             printf("\nENTER TIME:[hh:mm]:");
 
-            gets(time);
+            fgets(time,20,stdin);
 
             while ( fread ( &user, sizeof ( user ), 1, fpointer ) == 1 )
 

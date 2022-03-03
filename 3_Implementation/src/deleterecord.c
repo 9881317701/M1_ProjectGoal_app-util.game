@@ -82,7 +82,7 @@ void deleterecord( )
 
                 
 
-                gets(filename);
+                fgets(filename,20,stdin);
 
                 fp = fopen (filename, "rb" ) ;
 
@@ -120,7 +120,7 @@ void deleterecord( )
 
                 
 
-                gets(time);
+                fgets(time,20,stdin);
 
                 while(fread (&filee,sizeof(filee),1,fp)==1)
 
