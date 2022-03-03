@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util'
+make.exe: Leaving directory `c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+ 
