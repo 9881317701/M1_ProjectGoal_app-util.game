@@ -9,5 +9,5 @@ In this C Projects source code series, we are creating simple Personal dairy. It
 
 ![](https://api.codiga.io/project/31368/status/svg)
 
-[![C/C++ CI](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml)
+[![Build Linux](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml)
 [![C/C++ CI](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/amisha-gohad/M1_PersonalDiary_Utility/actions/workflows/c-cpp.yml)
