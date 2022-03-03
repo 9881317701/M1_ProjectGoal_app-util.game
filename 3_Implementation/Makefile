@@ -1,7 +1,7 @@
 PROJ_NAME= MyDiary
-SRC= main.c src/addrecord.c\ src/deleterecord.c\ src/editrecord.c\ src/record.c\ src/viewrecord.c\
+SRC= main.c src/addrecord.c src/deleterecord.c src/editrecord.c src/record.c src/viewrecord.c
 
-TEST_SRC=test_diary.c unity.c src/addrecord.c\ src/deleterecord.c\ src/editrecord.c\ src/record.c\ src/viewrecord.c\ 
+TEST_SRC=test_diary.c unity.c src/addrecord.c src/deleterecord.c src/editrecord.c src/record.c src/viewrecord.c
  
 ifdef OS
 	RM = del /q
