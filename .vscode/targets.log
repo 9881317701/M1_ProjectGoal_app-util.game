@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Mar 03 22:29:15 2022
+# Make data base, printed on Thu Mar 03 22:38:09 2022
 
 # Variables
 
@@ -148,7 +148,8 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LOCALAPPDATA = C:\Users\imarp\AppData\Local
+LOCALAPPDATA = C:\Users\imarp\AppData 
+\Local
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
@@ -167,8 +168,7 @@ OS = Windows_NT
 VSCODE_IPC_HOOK = \\.\pipe\f84c4d5f1216152af6c8861d433d620d-1.64.2-main-sock
 # environment
 HOMEPATH = \Users\imarp
-# 
- environment
+# environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 PROMPT = $P$G
@@ -219,7 +219,8 @@ FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 VSCODE_PID = 10564
 # environment
-CHROME_RESTART = Google Chrome|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
+CHROME_RESTART = Google Chro 
+me|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # variable set hash-table stats:
@@ -234,12 +235,12 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # D:\intelFPGA_lite\20.1\quartus\bin: could not be stat'd.
 # C:\Users\imarp\anaconda3\python: could not be stat'd.
 # C:\Octave\Octave-5.2.0\mingw64\bin: could not be stat'd.
-# C:\Windows\System32\WindowsPowerShell 
-\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
 # C:\Users\imarp\AppData\Local\GitHubDesktop\bin (key C:/Users/imarp/AppData/Local/GitHubDesktop/bin, mtime 1645104025): 4 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1642149777): 155 files, no impossibilities.
 # . (key c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util, mtime 1646323801): 13 files, no impossibilities.
-# C:\Users\imarp\AppData\Local\Microsoft\WindowsApps (key C:/Users/imarp/AppData/Local/Microsoft/WindowsApps, mtime 1645870025): 32 files, no impossibilities.
+# C:\Users\imarp\AppData\Local\Micros 
+oft\WindowsApps (key C:/Users/imarp/AppData/Local/Microsoft/WindowsApps, mtime 1645870025): 32 files, no impossibilities.
 # C:\Users\imarp\Documents\flutter\bin (key C:/Users/imarp/Documents/flutter/bin, mtime 1632253510): 9 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1599521684): 10 files, no impossibilities.
 # C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1620801688): 13 files, no impossibilities.
@@ -251,8 +252,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1633547655): 471 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\Java\jre1.8.0_301\bin (key C:/Program Files/Java/jre1.8.0_301/bin, mtime 1632251155): 130 files, no impossibilities.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1632251157): 5 files, no  
-impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1632251157): 5 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1645622833): 149 files, no impossibilities.
 # C:\ProgramData\imarp\GitHubDesktop\bin (key C:/ProgramData/imarp/GitHubDesktop/bin, mtime 1645104024): 4 files, no impossibilities.
 # C:\Program Files\scilab-6.1.0\bin (key C:/Program Files/scilab-6.1.0/bin, mtime 1604326076): 232 files, no impossibilities.
@@ -262,12 +262,12 @@ impossibilities.
 # C:\tools\dart-sdk\bin (key C:/tools/dart-sdk/bin, mtime 1634073912): 15 files, no impossibilities.
 # C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1612859965): 174 files, no impossibilities.
 # C:\Users\imarp\AppData\Roaming\Pub\Cache\bin: could not be stat'd.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1631607444): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/c 
+md, mtime 1631607444): 8 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1646305471): 2998 files, no impossibilities.
 # C:\Users\imarp\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/imarp/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644554625): 4 files, no impossibilities.
 # D:\devopss\andriod_sdk\tools (key D:/devopss/andriod_sdk/tools, mtime 1631868313): 14 files, no impossibilities.
-# C:\Users\imarp\AppData\Roaming\Python\Python38\Scripts (key C:/Users 
-/imarp/AppData/Roaming/Python/Python38/Scripts, mtime 1604342278): 3 files, no impossibilities.
+# C:\Users\imarp\AppData\Roaming\Python\Python38\Scripts (key C:/Users/imarp/AppData/Roaming/Python/Python38/Scripts, mtime 1604342278): 3 files, no impossibilities.
 # D:\devopss\andriod_sdk\platform-tools (key D:/devopss/andriod_sdk/platform-tools, mtime 1631868092): 19 files, no impossibilities.
 # C:\Users\imarp\Documents\flutter\bin\sdk\build-tools: could not be stat'd.
 # C:\Users\imarp\AppData\Roaming\npm (key C:/Users/imarp/AppData/Roaming/npm, mtime 1641985208): 6 files, no impossibilities.
@@ -311,6 +311,8 @@ makefile:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification tim 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
 e never checked.
 #  File has not been updated.
 
@@ -337,8 +339,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Mar 03 22:29:15 2022
+# Finished Make data base on Thu Mar 03 22:38:09 2022
 
- 
-make.exe: *** No rule to make target `all'.  Stop.
  
