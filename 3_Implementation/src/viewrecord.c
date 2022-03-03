@@ -29,7 +29,7 @@ void viewrecord( )
         printf("\n\tENTER THE DATE OF RECORD TO BE VIEWED:[yyyy-mm-dd]:");
 
 
-        gets(name);
+            fgets(filename,20,stdin);
 
         fpointer = fopen ( name, "rb" ) ;
 

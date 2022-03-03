@@ -50,7 +50,7 @@ void deleterecord( )
 
                 
 
-                gets(filename);
+                    fgets(filename,20,stdin);
 
                 fp = fopen (filename, "wb" ) ;
 // IF THERE IS NO SUCH FILE

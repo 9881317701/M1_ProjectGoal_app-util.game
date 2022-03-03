@@ -29,7 +29,7 @@ void editrecord()
         
 
 
-        gets(filename);
+           fgets(filename,20,stdin);
 
 
         printf("\n\tENTER TIME:[hh:mm]:");

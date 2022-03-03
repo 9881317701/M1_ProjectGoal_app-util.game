@@ -26,7 +26,7 @@ void addrecord( )
 
   
 
-    gets(filename);
+    fgets(filename,20,stdin);
 //save the file with the date as its name
     filePtr = fopen (filename, "ab+" ) ;
 //error handling to check null pointer

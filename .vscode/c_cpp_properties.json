@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/3_Implementation"
+                "${workspaceFolder}/3_Implementation",
+                "C:/msys64/mingw64/include/ncurses"
             ],
             "defines": [
                 "_DEBUG",
