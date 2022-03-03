@@ -1,4 +1,4 @@
-#include"inc/editrecord.h"
+#include"editrecord.h"
 #include"record.c"
 void editrecord()
 

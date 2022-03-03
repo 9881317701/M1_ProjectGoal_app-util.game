@@ -1,4 +1,4 @@
-#include"inc/viewrecord.h"
+#include"viewrecord.h"
 #include "record.c"
 void viewrecord( )
 
