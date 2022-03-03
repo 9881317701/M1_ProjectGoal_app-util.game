@@ -2,6 +2,10 @@
 #include"record.c"
 void addrecord( )
 
+/**
+ * @brief This function is used to add the record
+ * 
+ */
 {
 
 //clear the screen

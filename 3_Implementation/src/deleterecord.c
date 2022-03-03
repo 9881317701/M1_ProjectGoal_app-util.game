@@ -1,7 +1,11 @@
 #include"deleterecord.h"
 #include"record.c"
-void deleterecord( )
 
+void deleterecord( )
+/**
+ * @brief This function is used to Delete the record
+ * 
+ */
 {
 //CLEAR THE SCREEN
     system("cls");

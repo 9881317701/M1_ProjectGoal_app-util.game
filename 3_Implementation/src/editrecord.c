@@ -2,6 +2,11 @@
 #include"record.c"
 void editrecord()
 
+/**
+ * @brief This function is used to edit the record
+ * 
+ */
+
 {
 
     system("cls");

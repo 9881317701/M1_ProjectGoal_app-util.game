@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Amisha Gohad
+ * @brief In this C Projects source code series, we are creating simple Personal dairy. It is a c console-based application that works without using graphics and is one of the best c programming projects
+ * @version 0.1
+ * @date 2022-03-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>

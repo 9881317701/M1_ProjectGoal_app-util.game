@@ -2,6 +2,11 @@
 #include "record.c"
 void viewrecord( )
 
+/**
+ * @brief This function is used to view the record
+ * 
+ */
+
 {
 
     FILE *fpointer ;

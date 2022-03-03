@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Mar 03 22:38:09 2022
+# Make data base, printed on Thu Mar 03 23:11:12 2022
 
 # Variables
 
@@ -33,8 +33,7 @@ HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
 # automatic
-^D = $(patsub 
-st %/,%,$(dir $^))
+^D = $(patsubst %/,%,$(dir $^))
 # makefile
 CURDIR := c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util
 # default
@@ -64,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6e4ff6e3-5613-420a-9d05-9efd3e8f8a9a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1f8d9f81-0b01-465a-92ff-f3678f40bcd8-sock
 # environment
 VSCODE_CWD = C:\WINDOWS\system32
 # environment
@@ -148,8 +147,7 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LOCALAPPDATA = C:\Users\imarp\AppData 
-\Local
+LOCALAPPDATA = C:\Users\imarp\AppData\Local
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
@@ -191,7 +189,8 @@ COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # environment
-QUARTUS_ROOTDIR = C:\altera\13.0sp1\quartus
+QUARTUS_ROOTDIR = C:\alt 
+era\13.0sp1\quartus
 # automatic
 <F = $(notdir $<)
 # environment
@@ -219,8 +218,7 @@ FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 VSCODE_PID = 10564
 # environment
-CHROME_RESTART = Google Chro 
-me|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
+CHROME_RESTART = Google Chrome|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # variable set hash-table stats:
@@ -239,8 +237,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # C:\Users\imarp\AppData\Local\GitHubDesktop\bin (key C:/Users/imarp/AppData/Local/GitHubDesktop/bin, mtime 1645104025): 4 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1642149777): 155 files, no impossibilities.
 # . (key c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util, mtime 1646323801): 13 files, no impossibilities.
-# C:\Users\imarp\AppData\Local\Micros 
-oft\WindowsApps (key C:/Users/imarp/AppData/Local/Microsoft/WindowsApps, mtime 1645870025): 32 files, no impossibilities.
+# C:\Users\imarp\AppData\Local\Microsoft\WindowsApps (key C:/Users/imarp/AppData/Local/Microsoft/WindowsApps, mtime 1645870025): 32 files, no impossibilities.
 # C:\Users\imarp\Documents\flutter\bin (key C:/Users/imarp/Documents/flutter/bin, mtime 1632253510): 9 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1599521684): 10 files, no impossibilities.
 # C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1620801688): 13 files, no impossibilities.
@@ -262,8 +259,7 @@ oft\WindowsApps (key C:/Users/imarp/AppData/Local/Microsoft/WindowsApps, mtime 1
 # C:\tools\dart-sdk\bin (key C:/tools/dart-sdk/bin, mtime 1634073912): 15 files, no impossibilities.
 # C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1612859965): 174 files, no impossibilities.
 # C:\Users\imarp\AppData\Roaming\Pub\Cache\bin: could not be stat'd.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/c 
-md, mtime 1631607444): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1631607444): 8 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1646305471): 2998 files, no impossibilities.
 # C:\Users\imarp\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/imarp/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644554625): 4 files, no impossibilities.
 # D:\devopss\andriod_sdk\tools (key D:/devopss/andriod_sdk/tools, mtime 1631868313): 14 files, no impossibilities.
@@ -289,7 +285,10 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/32=0%, Rehash=0, Collis 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
+ions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -310,10 +309,7 @@ makefile:
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
-#  Modification tim 
-make.exe: *** No rule to make target `all'.  Stop.
- 
-e never checked.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -339,6 +335,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Mar 03 22:38:09 2022
+# Finished Make data base on Thu Mar 03 23:11:12 2022
 
  
