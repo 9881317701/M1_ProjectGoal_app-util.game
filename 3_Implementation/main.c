@@ -5,6 +5,7 @@
 #include"inc/editrecord.h"//
 #include"inc/viewrecord.h"//
 #include"inc/deleterecord.h"
+#include <curses.h>
 
 int main()
 
