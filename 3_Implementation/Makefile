@@ -1,71 +1,32 @@
-########################################################################
-####################### Makefile Template ##############################
-########################################################################
+PROJ_NAME= MyDiary
+SRC= main.c src/addrecord.c\ src/deleterecord.c\ src/editrecord.c\ src/record.c\ src/viewrecord.c\
 
-# Compiler settings - Can be customized.
-CC = gcc
-CXXFLAGS = -std=c11 -Wall
-LDFLAGS = 
-
-# Makefile settings - Can be customized.
-APPNAME = myapp
-EXT = .c
-SRCDIR = src
-OBJDIR = obj
-
-############## Do not change anything from here downwards! #############
-SRC = $(wildcard $(SRCDIR)/*$(EXT))
-OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
-DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
-# UNIX-based OS variables & settings
-RM = rm
-DELOBJ = $(OBJ)
-# Windows OS variables & settings
-DEL = del
-EXE = .exe
-WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+TEST_SRC=test_diary.c unity.c src/addrecord.c\ src/deleterecord.c\ src/editrecord.c\ src/record.c\ src/viewrecord.c\ 
  
- 
+ifdef OS
+	RM = del /q
+	FixPath = $(subst /,\,$1)
+	EXEC = exe 
+else
+	ifeq ($(shell uname),Linux)
+		RM = rm -rf
+		FixPath = $1
+		EXEC = out
+	endif
+endif
+INC=-ISRC
 
-########################################################################
-####################### Targets beginning here #########################
-########################################################################
+Build:
+	gcc $(SRC) 	$(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+run:Build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-all: $(APPNAME)
+Build_test:
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+run_test:Build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-# Builds the app
-$(APPNAME): $(OBJ)
-	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
-
-# Creates the dependecy rules
-%.d: $(SRCDIR)/%$(EXT)
-	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
-
-# Includes all .h files
--include $(DEP)
-
-# Building rule for .o files and its .c/.cpp in combination with all .h
-$(OBJDIR)/%.o: $(SRCDIR)/%$(EXT)
-	$(CC) $(CXXFLAGS) -o $@ -c $<
-
-################### Cleaning rules for Unix-based OS ###################
-# Cleans complete project
-.PHONY: clean
-clean:
-	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandep
-cleandep:
-	$(RM) $(DEP)
-
-#################### Cleaning rules for Windows OS #####################
-# Cleans complete project
-.PHONY: cleanw
-cleanw:
-	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandepw
-cleandepw:
-	$(DEL) $(DEP)
+staticcheck:
+	cppcheck --enable=all -iunity .
+dynamiccheck: Build
+	valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))

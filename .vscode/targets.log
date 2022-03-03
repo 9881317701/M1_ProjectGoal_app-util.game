@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Mar 03 21:40:43 2022
+# Make data base, printed on Thu Mar 03 22:29:15 2022
 
 # Variables
 
@@ -128,8 +128,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\LAPTOP-RNKL0PBI
 # environment
-VSCODE_HANDL 
-ES_UNCAUGHT_ERRORS = true
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = LAPTOP-RNKL0PBI
 # default
@@ -192,8 +191,7 @@ COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # environment
-QUARTUS_ROOTDIR = C:\alt 
-era\13.0sp1\quartus
+QUARTUS_ROOTDIR = C:\altera\13.0sp1\quartus
 # automatic
 <F = $(notdir $<)
 # environment
@@ -236,7 +234,8 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # D:\intelFPGA_lite\20.1\quartus\bin: could not be stat'd.
 # C:\Users\imarp\anaconda3\python: could not be stat'd.
 # C:\Octave\Octave-5.2.0\mingw64\bin: could not be stat'd.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell 
+\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
 # C:\Users\imarp\AppData\Local\GitHubDesktop\bin (key C:/Users/imarp/AppData/Local/GitHubDesktop/bin, mtime 1645104025): 4 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1642149777): 155 files, no impossibilities.
 # . (key c:/Users/imarp/Documents/GitHub/M1_ProjectGoal_util, mtime 1646323801): 13 files, no impossibilities.
@@ -248,8 +247,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-RNKL0PBI
 # C:\Users\imarp\AppData\Local\gitkraken\bin (key C:/Users/imarp/AppData/Local/gitkraken/bin, mtime 1643097393): 3 files, no impossibilities.
 # C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.4\bin: could not be stat'd.
 # C:\Program Files\Google\Chrome\Application (key C:/Program Files/Google/Chrome/Application, mtime 1644997050): 8 files, no impossibilities.
-# C:\Users\imarp\Docu 
-ments\flutter\bin\sdk\tools: could not be stat'd.
+# C:\Users\imarp\Documents\flutter\bin\sdk\tools: could not be stat'd.
 # C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1633547655): 471 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\Java\jre1.8.0_301\bin (key C:/Program Files/Java/jre1.8.0_301/bin, mtime 1632251155): 130 files, no impossibilities.
@@ -259,14 +257,12 @@ impossibilities.
 # C:\ProgramData\imarp\GitHubDesktop\bin (key C:/ProgramData/imarp/GitHubDesktop/bin, mtime 1645104024): 4 files, no impossibilities.
 # C:\Program Files\scilab-6.1.0\bin (key C:/Program Files/scilab-6.1.0/bin, mtime 1604326076): 232 files, no impossibilities.
 # C:\Users\imarp\Documents\flutter\bin\sdk\platform-tools: could not be stat'd.
-# C:\Users\imarp\AppData\Local\Pub\Cache\bin (key C:/Users/imarp/AppData/Lo 
-cal/Pub/Cache/bin, mtime 1641985079): 4 files, no impossibilities.
+# C:\Users\imarp\AppData\Local\Pub\Cache\bin (key C:/Users/imarp/AppData/Local/Pub/Cache/bin, mtime 1641985079): 4 files, no impossibilities.
 # C:\Program Files (x86)\nodejs\ (key C:/Program Files (x86)/nodejs/, mtime 1620801565): 11 files, no impossibilities.
 # C:\tools\dart-sdk\bin (key C:/tools/dart-sdk/bin, mtime 1634073912): 15 files, no impossibilities.
 # C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1612859965): 174 files, no impossibilities.
 # C:\Users\imarp\AppData\Roaming\Pub\Cache\bin: could not be stat'd.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/c 
-md, mtime 1631607444): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1631607444): 8 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1646305471): 2998 files, no impossibilities.
 # C:\Users\imarp\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/imarp/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644554625): 4 files, no impossibilities.
 # D:\devopss\andriod_sdk\tools (key D:/devopss/andriod_sdk/tools, mtime 1631868313): 14 files, no impossibilities.
@@ -275,8 +271,7 @@ md, mtime 1631607444): 8 files, no impossibilities.
 # D:\devopss\andriod_sdk\platform-tools (key D:/devopss/andriod_sdk/platform-tools, mtime 1631868092): 19 files, no impossibilities.
 # C:\Users\imarp\Documents\flutter\bin\sdk\build-tools: could not be stat'd.
 # C:\Users\imarp\AppData\Roaming\npm (key C:/Users/imarp/AppData/Roaming/npm, mtime 1641985208): 6 files, no impossibilities.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDI 
-A Corporation/NVIDIA NvDLISR, mtime 1599521761): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1599521761): 5 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1645119368): 5 files, no impossibilities.
 
 # 4544 files, no impossibilities in 39 directories.
@@ -294,8 +289,7 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collis 
-ions=0/0=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -317,8 +311,6 @@ makefile:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification tim 
-make.exe: *** No rule to make target `all'.  Stop.
- 
 e never checked.
 #  File has not been updated.
 
@@ -345,6 +337,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Mar 03 21:40:43 2022
+# Finished Make data base on Thu Mar 03 22:29:15 2022
 
+ 
+make.exe: *** No rule to make target `all'.  Stop.
  
