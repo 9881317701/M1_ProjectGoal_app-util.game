@@ -44,7 +44,7 @@ void addrecord( )
 
             printf("\nPLEASE PRESS ANY KEY TO EXIT");
 
-            getch();
+            
 
             return ;
 
@@ -136,6 +136,6 @@ void addrecord( )
     printf("\n\n\tPLEASE PRESS ANY OF THE KEY TO EXIT...");
 
 
-    getch();
+    
 
 }

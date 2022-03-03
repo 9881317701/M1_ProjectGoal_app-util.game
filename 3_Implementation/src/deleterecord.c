@@ -62,7 +62,7 @@ void deleterecord( )
 
                     printf("\nPLEASE PRESS ANY KEY TO GO BACK.");
 
-                    getch();
+                    
 
                     return ;
 
@@ -94,7 +94,7 @@ void deleterecord( )
 
                     printf("\nPRESS ANY KEY TO GO BACK.");
 
-                    getch();
+                    
 
                     return ;
 
@@ -110,7 +110,7 @@ void deleterecord( )
 
                     printf("\nPRESS ANY KEY TO GO BACK");
 
-                    getch();
+                    
 
                     return ;
 
@@ -165,6 +165,6 @@ void deleterecord( )
 
     printf("\n\n\t PLEASE PRESS ANY KEY TO EXIT... ");
 
-    getch();
+    
 
 }

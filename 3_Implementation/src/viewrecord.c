@@ -41,7 +41,7 @@ void viewrecord( )
 
             printf("PRESS ANY KEY TO EXIT...");
 
-            getch();
+            
 
             return ;
 

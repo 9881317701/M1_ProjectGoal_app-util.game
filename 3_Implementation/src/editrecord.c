@@ -46,8 +46,7 @@ void editrecord()
 
             printf("\nPRESS ANY KEY TO GO BACK");
 
-            getch();
-
+     
             return;
 
         }
@@ -176,7 +175,7 @@ void editrecord()
                     case 7:
                         printf("\nPRESS ANY KEY TO GO BACK...\n");
 
-                        getch();
+                       
 
                         return ;
 
@@ -273,6 +272,6 @@ void editrecord()
 
     printf("\tPRESS ENTER TO EXIT EDITING MENU.");
 
-    getch();
+
 
 }

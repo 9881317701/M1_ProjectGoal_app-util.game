@@ -65,7 +65,7 @@ int main()
 {
             printf("\n\n\t\tTHANK YOU FOR USING OUR SOFTWARE ");
 
-            getch();
+          
 
             exit(0);
 }
@@ -75,7 +75,7 @@ int main()
 
             printf("\nYOU MAY PRESS ANY KEY TO TRY AGAIN");
 
-            getch();
+          
 
             break;
 
